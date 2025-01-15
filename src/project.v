@@ -25,6 +25,6 @@ module tt_um_haahalya (
     assign uo_out[7:2]=6'b0;
 
   // List all unused inputs to prevent warnings
-  wire _unused = &{ena, clk, rst_n, 1'b0};
+    wire _unused = &{ena, clk, rst_n, 1'b0};
 
 endmodule
